@@ -1,0 +1,42 @@
+インクリメンタルゲームの基本的な計算式がのってるよ
+ボタンをスクロールする方法がのってるよ
+
+
+
+---------------------------------------------
+
+BackGroundつくりかた
+ヒエラルキーのcanvasを右クリック → createEmpty
+Transformをstrechにする
+なんか端を合わせる
+LTRBを0にする
+したらcanvasにぴったりになる（はず
+
+ヒエラルキーで下に来ているものほど前面に表示される
+
+
+---------------------------------------------
+LeftPanel
+ScrollRect つける 
+Horizontal チェックを外しておく
+Deceleration rate(減速率)
+
+ScrollPanel
+Grid Layout Group つける
+
+LeftPanelのcontentにScrollPanel指定
+
+結果
+スクロールする！
+---------------------------------------------
+
+UI→sliderでスライダがつくれるよ
+Interactibleチェックを外すと手動でうごかせないよ
+スライダもstretchにしとくよ
+ボタンにかぶさるサイズにしてハンドルをenable.falseにするよ
+fillarea,fillを0,0
+sliderのmaxvalueを100にするよ
+
+---------------------------------------------
+
+currency = 通貨　
